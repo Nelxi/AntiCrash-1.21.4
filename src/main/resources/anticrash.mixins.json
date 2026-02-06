@@ -5,15 +5,19 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ClientPlayNetworkHandlerMixin",
-    "DeathScreenMixin",
     "ClientConnectionMixin",
-    "MinecraftClientMixin"
+    "MinecraftClientMixin",
+    "StringNbtReaderMixin",
+    "ItemStackMixin",
+    "BlockEntityMixin"
   ],
   "client": [
     "ClientPlayNetworkHandlerMixin",
-    "DeathScreenMixin",
     "ClientConnectionMixin",
-    "MinecraftClientMixin"
+    "MinecraftClientMixin",
+    "StringNbtReaderMixin",
+    "ItemStackMixin",
+    "BlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
