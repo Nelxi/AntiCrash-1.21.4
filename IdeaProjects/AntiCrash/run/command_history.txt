@@ -1,0 +1,13 @@
+/plugins
+/particle minecraft:cloud ~ ~ ~ ~ ~ ~ 9999 999999999 force Player233
+/particle minecraft:cloud ~ ~ ~ ~ ~ ~ 9999 999999999 force Player413
+/particle minecraft:cloud ~ ~ ~ 1 0 1 9999 999999999 force Player413
+/particle minecraft:cloud 53 67 5 1 0 1 9999 999999999 force Player413
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 999999999 force
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 999999999 normal
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 99 normal
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 999 normal
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 99999 normal
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 9999 normal
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 999 normal
+/execute at Player413 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 1 9999999 normal
