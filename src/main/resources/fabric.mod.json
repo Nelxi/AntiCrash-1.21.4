@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "anticrash",
+  "version": "${version}",
+  "name": "AntiCrash",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/anticrash/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.nelxigd.anticrash.client.AnticrashClient"
+    ],
+    "main": [
+      "ru.nelxigd.anticrash.Anticrash"
+    ]
+  },
+  "mixins": [
+    "anticrash.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
